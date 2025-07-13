@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Deobfuscates a given Interlock RAT PHP script and extracts embedded IP addresses and domains.
 
@@ -8,6 +8,12 @@
     and then uses regular expressions to find and list all unique IPv4 addresses 
     and domain names found within the deobfuscated content, excluding a 
     predefined list of system-related files and domains.
+
+.AUTHOR
+    The DFIR Report
+
+.DATE
+    2025/07/13
 
 .PARAMETER Path
     Specifies the path to the obfuscated PHP file. This parameter is mandatory.
