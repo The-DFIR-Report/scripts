@@ -12,12 +12,18 @@
     and domain names found within the deobfuscated content, excluding a 
     predefined list of system-related files and domains.
 
+.AUTHOR
+    The DFIR Report
+
+.DATE
+    2025/07/13
+
 .PARAMETER path
     Specifies the path to the obfuscated PHP file. This parameter is mandatory.
 
 .EXAMPLE
     python Deobfuscate-PhpConfig.py --path "C:\\path\\to\\your\\obfuscated_script.cfg"
-
+"""
 
 import argparse
 import re
@@ -106,4 +112,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
